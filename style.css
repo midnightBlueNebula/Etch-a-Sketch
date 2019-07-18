@@ -1,0 +1,28 @@
+body{
+    background-color: paleturquoise;
+}
+
+#content{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(16,100px);
+    grid-template-rows: repeat(16,100px);
+    background-color: fuchsia;
+    width: 1600px;
+    height: 1600px;
+}
+
+.squares{
+    background-color: fuchsia;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.dots{
+    position: absolute;
+    width:1px;
+    height:1px;
+    border: 0.3px solid black;
+    border-radius: 50%;
+}
