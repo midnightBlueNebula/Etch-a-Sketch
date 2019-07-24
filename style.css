@@ -21,8 +21,9 @@ body{
 
 .dots{
     position: absolute;
-    width:1px;
-    height:1px;
+    width:4px;
+    height:4px;
     border: 0.3px solid black;
     border-radius: 50%;
+    background-color: black;
 }
