@@ -19,7 +19,7 @@ var cont = document.querySelectorAll('.squares');
 cont.forEach((e) => {
     e.addEventListener('click', (event) => {
         if(document.querySelector('#clear').getAttribute('class')!='off'){
-            event.target.innerHTML = '<div class="squares"></div>'
+            event.target.innerHTML = '';
         }
     })
 
