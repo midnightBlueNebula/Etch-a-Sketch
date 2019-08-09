@@ -13,6 +13,12 @@ if($w>1600){
 var btn_clear = document.querySelector('#clear');
 btn_clear.addEventListener('click', (event) => {
     event.target.classList.toggle('on');
+    if(event.target.getAttribute('class')!='off'){
+        event.target.value = 'Clear (on)';
+    }
+    else{
+        event.target.value = 'Clear (off)';
+    }
 })
 
 var cont = document.querySelectorAll('.squares');
